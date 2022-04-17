@@ -1,0 +1,432 @@
+*{
+   margin: 0;
+   padding: 0;
+} 
+.ather{
+    position: relative;
+    width: auto;
+    height: 100vh;
+} 
+::-webkit-scrollbar{
+    display: none;
+}
+/* ////////////////////container//////////////// */
+.container{
+    position: absolute;
+     /* background-color: aquamarine; */
+   display: flex;
+   /* overflow-x: auto; */
+   height: 75vh;
+}.bott{
+    position: absolute;
+    /* border: 2px solid; */
+    width: 2050px;
+    height: 20px;
+    bottom: 277px;
+    background-color: rgba(105, 105, 105, 0.612);
+ }.mirror-box{
+    /* position: relative; */
+    width: auto;
+    height: 600px;
+    /* border: 2px solid; */
+    background-image: url("/images/nordwood-themes-R53t-Tg6J4c-unsplash.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    }
+    .mirror{
+       background-image: url("/images/win.jpg");
+       background-size: 100% 100%;
+        width: 350px;
+        height: 200px;
+        /* border: 2px solid; */
+        margin-left: 30px;
+      margin-top: 200px;
+      margin-right: 30px;
+    }.mirror-1{
+        background-image: url("/images/win.jpg");
+        background-size: 100% 100%;
+         width: 350px;
+         height: 200px;
+         /* border: 2px solid; */
+         margin-left: 30px;
+       margin-top: 200px;
+       margin-right: 30px;
+       background-color: black;
+     }
+.door{
+    width: 550px;
+    height: 550px;
+    border: outset;
+    /* border-color:  rgb(131, 130, 128); */
+    /* margin-left: 40px; */
+    /* margin-right: -30px; */
+    background-image: url("/images/nordwood-themes-R53t-Tg6J4c-unsplash.jpg");
+   opacity: 10.9;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.indoor{
+    width: 450px;
+    height: 550px;
+    /* border: 2px solid; */
+    margin:auto;
+    background-image: url('/images/door.jpg.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+ .b-x{
+position: relative;
+/* border: 2px solid; */
+width: 500px;
+height: 550px;
+ }
+ .box{  position: absolute;
+   width: 290px;
+   height: 500px;
+   clip-path: polygon(0 0, 44% 24%, 44% 76%, 0% 100%);
+   background-image: url('/images/nordwood-themes-R53t-Tg6J4c-unsplash.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }.mid{
+     position: relative;
+     width: 300px;
+     height: 258px;
+     /* border: 2px solid; */
+     margin-left:132px;
+     top: 120px;
+     background-image: url('/images/nordwood-themes-R53t-Tg6J4c-unsplash.jpg');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     z-index: -1;
+ }
+ .box-1{
+     position: absolute;
+    width: 300px;
+    height: 500px;
+    clip-path: polygon(100% 1%, 44% 24%, 44% 76%, 100% 100%);
+    background-color: antiquewhite;
+    right: 0; 
+ }.next{
+     width:auto;
+   
+     display: flex;
+     overflow: hidden;
+ }.l-door{
+    position: absolute;
+   width: 200px;
+   height: 600px;
+   background-image: url('/images/u-win.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   left: -18px;
+   z-index: 100;
+   margin-top: 30px;
+}
+ .top{
+     position: relative;
+     background-image: url('/images/clean-light-green-vintage-wall-background.jpg');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     width: 800px;
+     height: 600px;
+     /* border: 2px solid; */
+ } .switch{
+     position: absolute;
+     background-image: url('/images/sw-removebg-preview.png');
+     background-repeat: no-repeat;
+     background-size:cover;
+     width: 90px;
+     height: 40px;
+     /* border: 2px solid; */
+    right: 150px;
+    bottom: 60px;
+}.tip{
+    position: absolute;
+  background-image: url('/images/switch-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+    width: 50px;
+    height: 40px;
+    /* border: 2px solid; */
+   right: 80px;
+   bottom: 60px;
+}
+
+/* .........     abcd           ...... */
+ .box-one{
+position: relative;
+width: 1200px;
+
+}
+.wall{
+    position: relative;
+    width: 1200px;
+    height: 580px;
+    top: 10px;
+   background-image: url('/images/nordwood-themes-R53t-Tg6J4c-unsplash.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   display: flex;
+}
+.oggprint{ position: absolute;
+    width: 600px;
+    height: 579px;
+    background-image: url("/images/ogg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    right: 30px;
+}.ANIMATIONWORLD{
+    position: absolute;
+    width: 650px;
+    height: 579px;
+    background-image: url("/images/super-mario-background.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    /* right: 30px;  */
+    z-index: 100;
+}.mir{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    /* border: 2px solid; */
+    top: 40px;
+    background-image: url("/images/f-mir.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ .A{ 
+ position: absolute;
+width: 70px;
+height: 70px;
+background-image: url('/images/m-removebg-preview.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+top: 250px;
+margin-left:30px ;
+}
+.wall-floor{ 
+    position: relative;
+    width: 1500px;
+    height: 310px;
+    /* background-color: black; */
+    left: -3px;
+    border-radius: 3px;
+}.print{ position: absolute;
+    width: 200px;
+    height: 280px;
+    background-image: url('/images/R.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 250px;
+    z-index: 10;
+    bottom:140px;
+}.fire{
+    position: absolute;
+    width: 180px;
+    height: 230px;
+    background-image: url('/images/fire-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 40px;
+    z-index: 10;
+    bottom:180px;
+}.p{
+    position: absolute;
+    height: 330px;
+    z-index: 11;
+    bottom:230px;
+    left: -100px;
+}.floor3{
+    position: absolute;
+    /* width: 1500px; */
+    height: 280px;
+    bottom: 0px;
+    display: flex;
+    /* overflow: hidden; */
+    z-index: -1; 
+ }
+/* ................floor......... */
+.floor{
+   position: absolute;
+    width: auto;
+    height: 35vh;
+    bottom: 0;
+    display: flex;
+}.carpet{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-image: url('/images/carpet.jpg');
+    background-repeat: no-repeat;
+background-size: cover;
+    bottom: 0px;
+    clip-path: polygon(0 22%, 51% 36%, 53% 100%, 0% 100%);
+}
+#plant1{
+    position: absolute;
+    width: 370px;
+    height: 300px;
+    /* background-color: black; */
+    bottom: 245px;
+    margin-left: 1900px;
+}#plant2{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    /* background-color: black; */
+    bottom: 245px;
+    margin-left: 2380px;
+}#plant3{
+    position: absolute;
+    width: 370px;
+    height: 300px;
+    /* background-color: black; */
+    bottom: 245px;
+    margin-left: 2870px;
+}#plant4{
+    position: absolute;
+    width: 370px;
+    height: 300px;
+    /* background-color: black; */
+    bottom: 255px;
+    margin-left: 3840px;
+    rotate: 20deg;
+}#plant5{
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    /* background-color: black; */
+    bottom: 225px;
+    margin-left: 5460px;
+    rotate: 60deg;
+}
+   
+ .floor1{ position: absolute;
+    width: 5710px;
+    height: 75vh;
+    background-image: url('/images/mitch-harris-cPZ21gvclO8-unsplash.jpg');
+    background-size:cover;
+    bottom: 0px;
+    /* margin-left: 0px; */
+    z-index: -10;
+ }.floor2{
+     position: absolute;
+     width: 800px;
+     height: 35vh;
+     /* border: 2px solid; */
+     bottom: 0px;
+     left: 5710px;
+     display: flex;
+     overflow: hidden;
+     z-index: -10;
+ }
+ 
+ .bottt{
+    position: absolute;
+    /* border: 2px solid; */
+    width: 415px;
+    height: 23px;
+    bottom: 65px;
+    margin-left:-34px;
+    background-color: rgba(105, 105, 105, 0.4);
+}.botttt{
+    position: absolute;
+    /* border: 2px solid; */
+    width: 1645px;
+    height: 20px;
+    bottom: 50px;
+    margin-left:-6px;
+    background-color: rgba(180, 175, 175, 0.737);
+}.bottttt{
+    position: absolute;
+    width: 799px;
+    height: 16px;
+    bottom: 0px;
+    /* margin-left:-6px; */
+    background-color: rgba(180, 175, 175, 0.737);
+}.botttttt{
+    position: absolute;
+    width: 1400px;
+    height: 19px;
+    bottom: 280px;
+    background-color: rgba(180, 175, 175, 0.737);
+    z-index: 2;
+}
+/* ///////////////animation////////// */
+#text1{
+    width: 300px;
+    height: 30px;
+    text-transform: capitalize;
+    color: crimson;text-align: center;
+
+
+}#touch,#start{ position: absolute;
+    text-align: center;
+    width:50px ;
+    right: 20px;
+    bottom: 40px;
+}.prasenjit{ 
+    position:absolute;
+width: 350px;
+height: 500px;
+z-index: 100;
+bottom: 80px;
+left: -390px;
+}.on{
+position: absolute;
+width: 70px;
+height: 50px;
+top:10px;
+background-color: transparent;
+border-radius: 30%;
+color: rgb(184, 9, 9);
+}
+.off{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    top:10px;
+    background-color: transparent;
+    border-radius: 30%;
+    color: rgb(184, 9, 9);
+    left: 100px;  
+}
+.alert{
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    border: 2px solid;
+    background-image: url('/images/16.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 300;
+    left: 450px;
+    top: 170px;
+}.break img{
+    position: absolute;
+width: 100px;
+height: 200px;
+bottom: -60px;
+left: 550px;
+}.room{ 
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(5, 5, 5);
+    z-index:101;
+    left: 7830px;
+    margin-left: 0;
+    /* margin-top: 10px; */
+    bottom: 0px;
+}#text{
+    color: green;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin:110px;
+}#mario{
+    margin: 50px;
+    width: 500px;
+}

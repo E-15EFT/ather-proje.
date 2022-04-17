@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="/js.js/cartoon.html/cartoon.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="ather">
+        <div class="atherx">
+        </div>
+
+        <div class="atherx1"></div>
+
+        <div class="atherx2">
+        </div>
+
+        <div class="atherx3"></div>
+
+        <div class="atherx4"></div>
+
+        <div class="atherx5"></div>
+
+        <div class="atherx6"></div>
+
+        <div class="atherx7"></div>
+
+        <div class="atherx8"></div>
+
+        <div class="atherx9"></div>
+
+        <div class="atherx10"></div>
+        <div class="su"><img id="ather11" src="/images/gameover_room-removebg-preview.png" alt=""><a id="Bs" href="/game.html"><h1> if you want to play with <u> BOSS</u> than click me </h1></a> </div>
+
+      
+
+     
+    </div>
+    <div id="dino"></div>
+    <div id="cactus"></div>
+
+        
+    </div>
+    <div class="on"> <h1>ARE YOU READY ?</h1> <button class="yes">Click me</button></div>
+  <button id="su"> <a href="/game.html"></a></button>
+    <script src="/mario.js"></script>
+    <script>
+        $(function () {
+            $(".yes").click(function () {
+                $(".ather").animate({ right: 0 },61000, "linear" );
+                $(".on").hide();
+
+            });
+        });
+    </script>
+</body>
+
+</html>

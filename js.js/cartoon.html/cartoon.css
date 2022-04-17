@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}::-webkit-scrollbar{
+  display: none;
+}
+.ather{
+    position: absolute;
+    height: 50vh;
+    display:flex;
+}
+.atherx{ 
+    position:relative;
+    width: 80vw;
+    height:70vh;
+    background-image:url('/images/pk1.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    /* margin: auto 0; */
+    margin-top: -80px;
+}.atherx1{ 
+    position:relative;
+    width: 80vw;
+    height: 60vh;
+    background-image:url('/images/pk2.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+left: -10px;
+
+}.atherx2{ 
+    position:relative;
+    width: 80vw;
+    height: 60vh;
+    background-image:url('/images/pk3.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+    left: -20px;
+/* top:100px */
+}.atherx3{ 
+    position:relative;
+    width: 80vw;
+    height: 60vh;
+    background-image:url('/images/pk4.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+    left: -25px;
+top:-3px
+}.atherx4{ 
+    position:relative;
+    width: 85vw;
+    height: 60vh;
+    background-image:url('/images/pk5.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+    left: -20px;
+/* top:100px */
+}.atherx5{ 
+    position:relative;
+    width: 80vw;
+    height: 60vh;
+    background-image:url('/images/pk6.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+    left: -23px;
+/* top:100px */
+}.atherx6{ 
+    position:relative;
+    width: 80vw;
+    height: 60vh;
+    background-image:url('/images/pk7.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+    left: -25px;
+/* top:100px */
+}.atherx7{ 
+    position:relative;
+    width: 80vw;
+    height:58vh;
+    background-image:url('/images/pk8.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+    left: -25px;
+    margin-top: 19px;
+/* top:100px */
+}.atherx8{ 
+    position:relative;
+    width: 90vw;
+    height:60vh;
+    background-image:url('/images/pk9.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+    left: -27px;
+/* top:100px */
+}.atherx9{ 
+    position:relative;
+    width: 100vw;
+    height: 60vh;
+    background-image:url('/images/pk10.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+    left: -30px;
+/* top:100px */
+}.atherx10{ 
+    position:relative;
+    width: 80vw;
+    height: 60vh;
+    background-image:url('/images/pk11.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: auto 0;
+    left: -50px;
+top:-5px;
+/* z-index: ; */
+}#ather11 { 
+  position:relative;
+width: 100vw;
+height: 100vh;
+left: -240px;
+margin-top: -295px;
+z-index: 108;
+}
+.on{
+    position: relative;
+    width: 580px;
+    height: 380px;
+    z-index: 11;
+    border:2px solid;
+    color: brown;
+    background-color:darkblue ;
+border-radius: 30px;
+top: 80px;
+display:flex;
+justify-content: center;
+z-index: 101;
+}.yes{
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  color: red;
+  background-color: transparent;
+  bottom: 50px;
+}h1{
+  position: absolute;
+margin-top: 30px;
+  
+}
+
+
+    
+    #dino {
+      width: 250px;
+      height: 250px;
+      background-image: url('/images/0bb1c49dd0331bf8a8976c230e5169-unscreen.gif');
+      background-size: 350px 350px;
+      position: absolute;
+      bottom: 390px;
+      /* z-index: 12; */
+    }
+    
+    .jump {
+      animation: jump 1.3s linear;
+    }
+    
+    @keyframes jump {
+      0% {
+        top: 150px;
+      }
+      50% {
+        top: 0px;
+      }
+      100% {
+        top: 150px;
+      }
+    }
+    
+    #cactus {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      bottom: 280px;
+      left: 100vw;
+    
+      background-image: url('/images/enemy.gif');
+      background-size: 120px 120px;
+      background-repeat: no-repeat;
+    
+      animation: block 4s infinite linear 2s;
+    }
+    
+    @keyframes block {
+      0% {
+        left: 150vw;
+      }
+    
+      100% {
+        left: -20px;
+      }
+    }
+    .su{
+      background-color: black;
+      width: 100vw;
+      height: 60vh;
+      z-index: 1;
+    }#Bs{
+      color: brown;
+      width: 220px;
+      height: 100px;
+    }
+    
+ 
+

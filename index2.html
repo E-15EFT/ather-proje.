@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="ather">
+
+    <div class="container">
+
+      <div class="mirror-box">
+        <div class="mirror-1"></div>
+      </div>
+      <div class="mirror-box">
+        <div class="mirror-1"></div>
+      </div>
+      <div class="mirror-box">
+        <div class="mirror"></div>
+      </div>
+      <div class="mirror-box">
+        <div class="mirror"></div>
+      </div>
+      <div class="mirror-box">
+        <div class="mirror"></div>
+      </div>
+      <div class="door">
+        <div class="indoor"></div>
+      </div>
+      <div class="mirror-box">
+        <div class="mirror">
+          <div class="bottt"></div>
+        </div>
+      </div>
+      <div class="door">
+        <div class="indoor"></div>
+      </div>
+      <div class="b-x">
+        <div class="box"></div>
+        <div class="box-1"><img class="t1" src="/images/image.png" alt=""></div>
+        <div class="mid">
+          
+        </div>
+
+      </div>
+      <div class="next">
+        <div class="botttt"></div>
+        <div class="mirror-box">
+          <div class="mirror"></div>
+        </div>
+        <div class="mirror-box">
+          <div class="mirror"></div>
+        </div>
+        <div class="mirror-box">
+          <div class="mirror"></div>
+        </div>
+        <div class="mirror-box">
+          <div class="mirror"></div>
+        </div>
+
+      </div>
+      <div class="B-top">
+        <div class="top">
+          <div class="l-door"></div>
+          <div class="bottttt"></div>
+          <div class="switch"></div>
+          <div class="tip"></div>
+        </div>
+      </div>
+
+      <div class="box-one">
+        <div class="alert" style="display: none;">
+ <button id="start"> <a href="/js.js/cartoon.html/index.html">LET'S GO..</a>  </button> 
+
+        </div>
+        <div class="wall">
+          <div class="mir"></div>
+          <div class="A"></div>
+          <div class="oggprint">
+            <div class="break">
+              <img class="" src="/images/stop.png" alt="">
+            </div>
+            <h2 id="text1" style="display: none;">
+              <div class="ANIMATIONWORLD">
+               
+              </div>
+            </h2> <br><br>
+            <!-- <button id="touch">click </button> -->
+          </div>
+        </div>
+        <div class="wall-floor">
+          <div class="floor3">
+            <img src="/images/carpet.jpg" alt="">
+            <img src="/images/carpet.jpg" alt="">
+            <img src="/images/carpet.jpg" alt="">
+            <img src="/images/carpet.jpg" alt="">
+            <img src="/images/carpet.jpg" alt="">
+          </div>
+          <div class="print"></div>
+          <div class="fire"></div>
+          <div class="p">
+            <img src="/images/tub.png" width="350" alt="">
+          </div>
+          <div class="botttttt"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="floor">
+      <div class="carpet"></div>
+      <img id="plant1" src="/images/tub.png" alt="">
+      <img id="plant2" src="/images/tub.png" alt="">
+      <img id="plant3" src="/images/tub.png" alt="">
+      <img id="plant4" src="/images/tub.png" alt="">
+      <img id="plant5" src="/images/tub.png" alt="">
+      <div class="floor1">
+        <div class="bott"></div>
+        <!-- <div class="bott-1"></div> -->
+      </div>
+      <div class="floor2">
+        <img src="/images/carpet.jpg" alt="">
+        <img src="/images/carpet.jpg" alt="">
+        <img src="/images/carpet.jpg" alt="">
+        <img src="/images/carpet.jpg" alt="">
+      </div>
+
+    </div>
+  <div class="room" style="display: none;">
+    <img id="mario" src="/images/mario-bros.jpg" width="300px"  height="300px" alt="" srcset="">
+   <div id="text">
+   </div>
+  </div>
+  </div>
+  <div class="control">
+    <button class="on">start</button>
+    <button class="off">stop</button>
+  </div>
+  <img class="prasenjit" src="/images/jit-.gif" alt="">
+
+
+  <script>
+    $(function () {
+      $("#touch").click(function () {
+        $("#text1").show(3000);
+      });
+      $(".on").click(function () {
+        $(".ather").animate({right : 7000},51000 ); 
+        $(".prasenjit").animate( {left :800},3000); 
+         
+      });
+      $(".off").click(function () {
+        $(".ather").stop();
+        $(".alert").show(2000 ); 
+        $(".room").show(2000 ); 
+      });
+      $(".on").click(function () {
+        $(".ather").animate({right : 7000},1000,"linear" );  
+      });
+
+    });
+  </script>
+
+  
+  <script type="text/javascript">
+  var i = 0,text;
+ text = 'Roaming through the office just as game mario ';
+  var speed = 50;
+  
+  function typing() {
+    if (i < text.length) {
+      document.getElementById("text").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typing, 100);
+    }
+  }
+  typing();
+  </script>
+
+</body>
+
+</html>
